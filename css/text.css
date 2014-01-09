@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #E4C65D;
+		background: #76CAEB;
 		font-family: 'Questrial', sans-serif;
 		font-size: 12pt;
 		color: rgba(0,0,0,.6);
@@ -197,6 +197,8 @@
 		margin: 0 auto;
 		width: auto;
 	}
+	
+	
 
 /*********************************************************************************/
 /* List Styles                                                                   */
@@ -207,47 +209,6 @@
 	}
 
 
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
-
-	ul.contact
-	{
-		margin: 0;
-		padding: 2em 0em 0em 0em;
-		list-style: none;
-	}
-	
-	ul.contact li
-	{
-		display: inline-block;
-		padding: 0em 0.10em;
-		font-size: 1em;
-	}
-	
-	ul.contact li span
-	{
-		display: none;
-		margin: 0;
-		padding: 0;
-	}
-	
-	ul.contact li a
-	{
-		color: #FFF;
-	}
-	
-	ul.contact li a:before
-	{
-		display: inline-block;
-		background: #E2AD1C;
-		width: 40px;
-		height: 40px;
-		line-height: 40px;
-		text-align: center;
-		color: #FFFFFF;
-	}
-	
 
 /*********************************************************************************/
 /* Button Style                                                                  */
@@ -337,7 +298,7 @@
 	#logo a
 	{
 		text-decoration: none;
-		color: #F67C78;
+		color: #FC4349;
 	}
 	
 	#logo span
@@ -353,6 +314,10 @@
 		color: #F67C78;
 	}
 	
+	#logo { background-image: url(pics/long.png);
+	        position: 
+	
+	}
 	
 
 /*********************************************************************************/
@@ -392,8 +357,8 @@
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
-	   background: gray;
-		color: #FFF;
+	   background: #ECF0F1;
+		color: #F67C78;
 	}
 	
 	#menu .current_page_item a
@@ -409,7 +374,8 @@
 
 	#banner
 	{
-		padding: 4em 0em 3em 0em;
+		padding: 1em 0em 0em 0em;
+	     
 	}
 
 /*********************************************************************************/
@@ -473,7 +439,7 @@
 	{
 		overflow: hidden;
 		background: #F3F3F3;
-		padding: 5em 0em;
+		padding: 2em 0em;
 	}
 
 	#page
@@ -531,7 +497,7 @@
 	
 	#footer .title span
 	{
-		color: rgba(255,255,255,0.4);
+		color: #76CAEB;
 	}
 
 /*********************************************************************************/
@@ -542,7 +508,7 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		border-top: 1px solid rgba(255,255,255,0.08);
+		border-top: 1px solid #76CAEB;
 		text-align: center;
 	}
 	
@@ -559,33 +525,12 @@
 		color: rgba(255,255,255,0.8);
 	}
 
-/*********************************************************************************/
-/* Newsletter                                                                    */
-/*********************************************************************************/
 
-	#newsletter
-	{
-		overflow: hidden;
-		padding: 8em 0em;
-		background: #EDEDED;
-		text-align: center;
-	}
-	
-	#newsletter .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-	
-	#newsletter .content
-	{
-		width: 600px;
-		margin: 0px auto;
-	}
 	
 /*********************************************************************************/
 /* Portfolio                                                                     */
 /*********************************************************************************/
-
+/*
 	#portfolio
 	{
 	}
@@ -634,103 +579,14 @@
 	{
 		float: right;
 	}
+	
+	*/
 
 /*********************************************************************************/
 /* Three Columns                                                                 */
 /*********************************************************************************/
 
-	#three-column
-	{
-		overflow: hidden;
-		text-align: center;
-		color: #FFF;
-	}
 	
-	#three-column h2
-	{
-		margin: 1em 0em;
-		font-size: 1.5em;
-		font-weight: 700;
-	}
-	
-	#three-column .icon
-	{
-		position: relative;
-		display: block;
-		margin: 0px auto 0.80em auto;
-		background: none;
-		line-height: 150px;
-		font-size: 4em;
-		width: 150px;
-		height: 150px;
-		border-radius: 100px;
-		border: 6px solid #67128F;
-		text-align: center;
-		color: #FFF;
-		
-	}
-		
-	#three-column #tbox1,
-	#three-column #tbox2,
-	#three-column #tbox3
-	{
-		float: left;
-		width: 320px;
-		padding: 80px 40px 80px 40px;
-	}
-
-	#three-column #tbox1
-	{
-		background: #F67C78;
-	}
-
-	#three-column #tbox1 .button
-	{
-		background: #E85D4B;
-	}
-
-	#three-column #tbox2
-	{
-		background: #79C4CA;
-	}
-
-	#three-column #tbox2 .button
-	{
-		background: #57AEAD;
-	}
-
-	#three-column #tbox3
-	{
-		background: #A8C269;
-	}
-
-	#three-column #tbox3 .button
-	{
-		background: #809944;
-	}
-	
-	#three-column .title
-	{
-		text-align: center;
-	}
-	
-	#three-column .title h2
-	{
-		font-size: 1.60em;
-		color: #FFF;
-	}
-	
-	#three-column .title .byline
-	{
-		padding-top: 0.50em;
-		font-size: 0.90em;
-		color: #858585;
-	}
-
-	#three-column .arrow-down
-	{
-		border-top-color: #292929;
-	}
 	
 	
 	ul.tools
@@ -818,6 +674,28 @@
 		width: 300px;
 	}
 		
+#slidec {
+    text-align:center;
+    
+}
 
-	
+
+#utbtext {
+        width: 700px;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	

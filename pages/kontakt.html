@@ -13,7 +13,7 @@ Released   : 20140101
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WIAB</title>
+<title>Kontakt</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
@@ -28,10 +28,11 @@ Released   : 20140101
 	<div id="header" class="container">
 		<div id="logo">
 			<h1><a href="#">WIAB</a></h1>
+			<h2>Utbildningar i Brand & Säkerhet</h2>
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="../index.html" accesskey="1" title="">Hem</a></li>
+				<li><a href="index.html" accesskey="1" title="">Hem</a></li>
 				<li><a href="utbildningar.html" accesskey="2" title="">Utbildningar</a></li>
 				<li><a href="omoss.html" accesskey="3" title="">Om Oss</a></li>
 				<li class="current_page_item"><a href="kontakt.html" accesskey="4" title="">Kontaktinformation</a></li>
@@ -39,25 +40,27 @@ Released   : 20140101
 			</ul>
 		</div>
 	</div>
-	<div id="banner" class="container"><img src="images/banner.jpg" width="1200" height="400" alt="" /></div>
+	<div id="slidec">
+    	<a href="javascript:slidelink()"><img src="../slider/images/bildspel2.png" id="sliders" name="slide" width="1200" height="400" /></a>
+    </div>
 </div>
 <div id="page-wrapper">
 	<div id="page" class="container">
 		<div id="content">
 			<div class="title">
-				<h2>Kontakta mig här!</h2>
+				<h2>Om du har frågor eller funderingar gällande utbildningarna är du välkommen att kontakta mig via formuläret nedan, så svarar jag så snabbt jag kan.</h2>
 			</div>
-                    <form method="post" action=".php">
-                        <label>Namn</label>
+                    <form method="post" action="meddela.php">
+                        <label><b>Namn</b></label>
                         <input name="name" placeholder="">
                                 
-                        <label>Email</label>
+                        <label><b>Email</b></label>
                         <input name="email" type="email" placeholder="">
                                 
-                        <label>Meddelande</label>
+                        <label><b>Meddelande</b></label>
                         <textarea name="message" placeholder=""></textarea>
                                 
-                        <input id="submit" name="submit" type="submit" value="Submit">
+                        <input id="submit"  class="button button-small" name="submit" type="submit" value="Skicka">
                     </form>
         </div>
          
@@ -66,19 +69,25 @@ Released   : 20140101
 				<h3>Peter Wisseng</h3>
 			</div>
 			<ul class="default">
-								<img src="../css/pics/peterprofil.jpg" width="340" height="300" alt="PeterWisseng"/>
+								<img src="../css/pics/peterw1.jpg" width="300" height="300" alt="PeterWisseng"/>
 			</ul>
 			<div class="">
-				<p>Via formuläret till vänster kan du skriva dina frågor direkt till mig!
-		
-				</p>
-				<a href="kontakt.html" class="button button-small">Kontakta mig</a>
+				Kontaktinformation: <br>
+				Telefonnummer: 112 (haha..)<br>
+				Skostorlek: 43,5<br>
+				Favoritmaträtt: Korv med bröd<br>
+				Tshirtstorlek: L<br>
+				
+				
 			</div>
 		</div>
 	</div>
 </div>
+<div id="copyright" class="container">
+	<p>Copyright (c) 2013 Sitename.com. All rights reserved. | Photos by Peter Wisseng | Design by 
+		
+</div>
 
-
-
+<script type="text/javascript" src="../slider/slide.js"></script>
 </body>
 </html>
