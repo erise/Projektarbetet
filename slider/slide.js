@@ -18,7 +18,7 @@ function slideit() {
     
     document.images.slide.src=eval ("image"+step+".src");
     whichimage=step
-    if(step<5)
+    if(step<4)
     step++
     else
     step=1
@@ -33,9 +33,11 @@ slideit();
 
 function slidelink(){
 if (whichimage==1)
-window.location="kontakt.html"
+window.location="utbildningar.html"
 else if (whichimage==2)
-window.location="omoss.html"
+window.location="utbildningar.html"
 else if (whichimage==3)
+window.location="utbildningar.html"
+else if (whichimage==4)
 window.location="utbildningar.html"
 }

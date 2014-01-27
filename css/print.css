@@ -1,0 +1,42 @@
+
+
+#menu { display:none;
+
+}
+
+#content { font-family:"Times New Roman", Times, serif;
+            font-size: 12pt;
+}
+
+.box2 { display:none;
+
+}
+
+.box1 { display:none ;
+}
+
+#slidec { display:none;
+
+}
+
+#copyright { background-color:none;
+
+}
+
+.kontaket { font-size:1em;
+            position:center;
+
+}
+
+#formueer { display:none;
+}
+
+#kontaktinformation 
+    {
+        display:inline;
+        font-size: 20pt;
+        color: black;
+    }
+#sidebar {
+    display:none;
+}

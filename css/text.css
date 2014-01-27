@@ -492,6 +492,11 @@
 /* Content                                                                       */
 /*********************************************************************************/
 
+    #kontaktinformation 
+    {
+        display:none;
+    }
+
 	#content
 	{
 		float: left;
